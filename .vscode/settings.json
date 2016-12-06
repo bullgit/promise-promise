@@ -1,3 +1,14 @@
 {
-    "eslint.autoFixOnSave": false
+    "eslint.autoFixOnSave": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/coverage": true,
+        "**/node_modules": true,
+        "**/.vscode": true,
+        "**/dist": true,
+        "**/.**": true
+    }
 }
