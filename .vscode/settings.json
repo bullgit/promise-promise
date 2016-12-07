@@ -9,6 +9,6 @@
         "**/node_modules": true,
         "**/.vscode": true,
         "**/dist": true,
-        "**/.**": true
+        "**/.**": false
     }
 }

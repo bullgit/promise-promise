@@ -1,31 +1,41 @@
 {
-  "name": "promise-promise",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest --coverage",
-    "test:dev": "jest --watch",
-    "test:cov": "jest --coverage",
-    "build": "rollup -c && rollup -c rollup.prod.config.js",
-    "build:dev": "rollup -c rollup.prod.config.js",
-    "build:prod": "rollup -c rollup.prod.config.js",
-    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
-  },
-  "author": "René Viering",
-  "license": "MIT",
-  "devDependencies": {
-    "babel-jest": "^17.0.2",
-    "babel-preset-es2015-rollup": "^1.2.0",
-    "coveralls": "^2.11.15",
-    "eslint": "^3.11.1",
-    "eslint-config-xo": "^0.17.0",
-    "jest": "^17.0.3",
-    "rollup": "^0.36.4",
-    "rollup-plugin-babel": "^2.6.1",
-    "rollup-plugin-commonjs": "^5.0.5",
-    "rollup-plugin-node-resolve": "^2.0.0",
-    "rollup-plugin-sourcemaps": "^0.4.1",
-    "rollup-plugin-uglify": "^1.0.1"
-  }
+	"name": "promise-promise",
+	"version": "0.0.0",
+	"description": "A funny Promise API for those who can't keep promises.",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest --coverage",
+		"test:dev": "jest --watch",
+		"test:cov": "jest --coverage",
+		"build": "rollup -c && rollup -c rollup.prod.config.js",
+		"build:dev": "rollup -c rollup.prod.config.js",
+		"build:prod": "rollup -c rollup.prod.config.js",
+		"coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
+	},
+	"files": [
+		"dist",
+		"index.js"  
+	],
+	"author": "René Viering",
+	"license": "MIT",
+	"devDependencies": {
+		"babel-jest": "^17.0.2",
+		"babel-preset-es2015-rollup": "^1.2.0",
+		"coveralls": "^2.11.15",
+		"eslint": "^3.11.1",
+		"eslint-config-xo": "^0.17.0",
+		"jest": "^17.0.3",
+		"rollup": "^0.36.4",
+		"rollup-plugin-babel": "^2.6.1",
+		"rollup-plugin-commonjs": "^5.0.5",
+		"rollup-plugin-node-resolve": "^2.0.0",
+		"rollup-plugin-sourcemaps": "^0.4.1",
+		"rollup-plugin-uglify": "^1.0.1"
+	},
+	"keywords": [
+		"promises",
+		"es6",
+		"funny",
+		"bullgit"
+	]
 }
