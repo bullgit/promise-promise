@@ -1,6 +1,6 @@
 {
   "name": "promise-promise",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A funny Promise API for those who can't keep promises.",
   "main": "index.js",
   "scripts": {
