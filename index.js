@@ -17,7 +17,6 @@ export default class PromisePromise {
 					} else {
 						reject(getRandomExcuse());
 					}
-                    resolve(response);
 				})
                 .catch(err => {
                     resolve(err);
