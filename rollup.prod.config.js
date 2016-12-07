@@ -7,7 +7,7 @@ export default {
 	entry: 'index.js',
 	dest: 'dist/promisepromise.min.js',
 	format: 'umd',
-	moduleName: 'vanillaUIRouter',
+	moduleName: 'promisePromise',
 	plugins: [
 		resolve({
 			jsnext: true,
