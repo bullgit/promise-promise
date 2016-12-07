@@ -33,7 +33,7 @@ describe('PromisePromise', () => {
 
 		const generatePromise = () => {
 			return new PromisePromise((resolve, reject) => {
-					resolve('Actually the promise should always be fulfilled.')
+					resolve('Actually the promise should always be fulfilled!')
 				})
 				.then(() => ++countFulfilling)
 				.catch(err => {
