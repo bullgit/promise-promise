@@ -14,7 +14,8 @@
   },
   "files": [
     "dist",
-    "index.js"
+    "index.js",
+    "excuses.js"
   ],
   "author": "René Viering",
   "license": "MIT",
