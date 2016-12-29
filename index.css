@@ -1,0 +1,75 @@
+html, body {
+	color: #111111;
+}
+
+h3 {
+	display: none;
+}
+
+.success {
+	color: white;
+	background-color: #16a085;
+}
+
+.success h3 {
+	display: block;
+}
+
+.error {
+	color: white;
+	background-color: #e74c3c;
+}
+
+.error h3 {
+	display: block;
+}
+
+.success pre {
+	font-size: 0.7em;
+}
+
+.error pre {
+	font-size: 2em;
+}
+
+.success #troll {
+	display: none;
+}
+
+.error #troll {
+	display: block;
+}
+
+button {
+	background-color: #7f8c8d; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.container {
+	margin: 50px auto 50px;
+}
+
+@media(min-width: 420px) {
+	.container {
+		width: 420px;
+	}
+}
+
+@media(min-width: 720px) {
+	.container {
+		width: 720px;
+	}
+}
+
+@media(min-width: 960px) {
+	.container {
+		width: 960px;
+	}
+}
