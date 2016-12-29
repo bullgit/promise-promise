@@ -9,7 +9,7 @@
 
 # promise-promise
 
-> A funny Promise API for those who can't keep promises. There's a 50:50 chance that the promise will be fulfilled. If not, it rejects with a random developer excuse. 😎😇 Good luck 🙈
+> A funny Promise wrapper for those who can't keep promises. There's a 50:50 chance that the promise will be fulfilled. If not, it rejects with a random developer excuse. 😎😇 Good luck 🙈
 
 ## Install
 
