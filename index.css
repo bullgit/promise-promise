@@ -6,6 +6,10 @@ h3 {
 	display: none;
 }
 
+pre {
+	overflow: auto;
+}
+
 .success {
 	color: white;
 	background-color: #16a085;
