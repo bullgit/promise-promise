@@ -1,6 +1,6 @@
 {
   "name": "promise-promise",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A funny Promise API for those who can't keep promises.",
   "main": "dist/promisepromise.js",
   "scripts": {
