@@ -6,9 +6,9 @@ import sourcemaps from 'rollup-plugin-sourcemaps';
 export default {
 	entry: 'index.js',
 	dest: 'dist/promisepromise.js',
-	format: 'umd',
+	format: 'cjs',
 	moduleName: 'promisePromise',
-	sourceMap: true,
+	sourceMap: false,
 	plugins: [
 		resolve({
 			jsnext: true,

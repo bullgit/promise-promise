@@ -5,7 +5,7 @@ import commonjs from 'rollup-plugin-commonjs';
 
 export default {
 	entry: 'index.js',
-	dest: 'dist/promisepromise.min.js',
+	dest: 'dist/umd/promisepromise.min.js',
 	format: 'umd',
 	moduleName: 'promisePromise',
 	plugins: [

@@ -1,9 +1,8 @@
 import excuses from './excuses';
 
 const getRandomExcuse = () => {
-    return excuses[Math.floor(Math.random() * excuses.length)];
+	return excuses[Math.floor(Math.random() * excuses.length)];
 };
-
 
 export default class PromisePromise {
 	constructor(init) {
@@ -18,9 +17,9 @@ export default class PromisePromise {
 						reject(getRandomExcuse());
 					}
 				})
-                .catch(err => {
-                    resolve(err);
-                });
+				.catch(err => {
+					resolve(err);
+				});
 		});
 	}
 }
